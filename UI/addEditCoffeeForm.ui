@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditForm</class>
+ <widget class="QWidget" name="EditForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>573</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Редактор кофе</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="btnBack">
+     <property name="minimumSize">
+      <size>
+       <width>555</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>&lt;-</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labeID">
+     <property name="text">
+      <string>ID кофе:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinID"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelTitle">
+     <property name="text">
+      <string>Название кофе:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineTitle"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelSort">
+     <property name="text">
+      <string>Сорт кофе:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>арабика</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>эксцельза </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>робуста</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>либерика</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelRoasting">
+     <property name="text">
+      <string>Уровень обжарки:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboRoasting">
+     <item>
+      <property name="text">
+       <string>светлая</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>средняя</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>сильная</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelType">
+     <property name="text">
+      <string>Тип кофе:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboType">
+     <item>
+      <property name="text">
+       <string>в зернах</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>молотый</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelTaste">
+     <property name="text">
+      <string>Вкус:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineTaste"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelPrice">
+     <property name="text">
+      <string>Цена:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinPrice">
+     <property name="maximum">
+      <number>10000</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelVolume">
+     <property name="text">
+      <string>Объем (мл):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="spinVolume">
+     <property name="maximum">
+      <number>1000</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAdd">
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnEdit">
+     <property name="text">
+      <string>Редактировать</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
